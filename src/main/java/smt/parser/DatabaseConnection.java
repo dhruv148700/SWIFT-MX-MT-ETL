@@ -16,7 +16,7 @@ public class DatabaseConnection {
     Properties props = new Properties();
 
     try (FileInputStream input =
-                 new FileInputStream("config/config.properties")) {
+                 new FileInputStream("config/properties")) {
       props.load(input);
     } catch (IOException e) {
       e.printStackTrace();

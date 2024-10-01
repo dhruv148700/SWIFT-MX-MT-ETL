@@ -1,0 +1,14 @@
+Index: config/config.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/config/config.properties b/config/config.properties
+new file mode 100644
+--- /dev/null	(date 1726140346303)
++++ b/config/config.properties	(date 1726140346303)
+@@ -0,0 +1,4 @@
++RDS_URL = jdbc:mysql://database-1.cv0ckeyweyxo.eu-north-1.rds.amazonaws.com:3306/myDB
++MX_URL = jdbc:mysql://database-1.cv0ckeyweyxo.eu-north-1.rds.amazonaws.com:3306/mxDB
++RDS_USER = admin
++RDS_PASSWORD = ILoveBali2004!
